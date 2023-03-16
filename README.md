@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#cambios en la db
+npx prisma push db
 
-## Getting Started
+# prisma studio
 
-First, run the development server:
+npx prisma studio
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+#add material
+npm i @mui/material
+npm i @emotion/react @emotion/styled
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#notes:
+Server component pueden renderizar client component.
+Client component no pueden renderizar Server component a menos que se pasen como propiedad
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# add validators
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+npm i validator
+npm i @types/validator
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#password hash
+npm i bcrypt
+npm i @types/
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#add JWT
+npm i jose // para codificar
+npm i @types/jose
+npm i jsonwebtoken // para decodificar
+npm i @types/jsonwebtoken
 
-## Learn More
+# add axios
 
-To learn more about Next.js, take a look at the following resources:
+npm i axios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# add management cookies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm i cookies-next
 
-## Deploy on Vercel
+#add date-picker
+npm i react-datepicker
+npm i @types/react-datepicker
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#add tratamiento de horas
+npm i date-fns
